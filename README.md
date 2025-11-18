@@ -1,4 +1,5 @@
 **Great Places to Explore in Summer**
+
 This project is an interactive web map designed to help users discover various attractions and amenities in the Salzburg, Austria region. It was developed as an Application Development IP project with the primary goal of providing a comprehensive tool for exploring notable locations.
 
 **Key Features and Functionalities**
