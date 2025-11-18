@@ -50,3 +50,5 @@ During development, the project encountered limitations primarily related to dat
 
 
 **Functionality Expansion:** The project was unable to integrate advanced features like a sidebar grid. This feature, intended to display detailed information when a location was selected, could not be implemented because the required data with the necessary attributes was unavailable.
+
+**View the Interactive Map Here:** [https://sunday2023539.github.io/Great-Places-to-explore-in-Summer/](https://sunday2023539.github.io/Great-Places-to-explore-in-Summer/)
