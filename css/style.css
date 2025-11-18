@@ -1,0 +1,47 @@
+html {
+	font-family: Verdana;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	background: #2B4059;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+#header p {
+	margin: 0px;
+	margin-top: 5px;
+}
+
+#map {
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	right: 0px;
+	bottom: 40px;
+	background: #CCFFCC;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 45px;
+	background: #2B4059;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+}
