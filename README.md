@@ -5,10 +5,11 @@
 **Great Places to Explore in Summer**
 
 This project is an interactive web map designed to help users discover various attractions and amenities in the Salzburg, Austria region. It was developed as an Application Development IP project with the primary goal of providing a comprehensive tool for exploring notable locations.
+----
 
 **Key Features and Functionalities**
 The application offers a user-friendly interface built around core interactive map features:
-
+----
 
 **Layer Control:** Users can easily toggle between different map layers to focus on specific location types.
 
@@ -19,6 +20,8 @@ Libraries (BiblioTek)
 Museums (Museum) 
 
 Surf Hotspots (Wlan hotspot)
+
+----
 
 **Pop-Ups:** Clicking on a marker triggers a pop-up that displays the name and other relevant details about the selected location, offering a quick overview.
 
@@ -35,6 +38,8 @@ Surf Hotspots (Wlan hotspot)
 
 **Data Format:** The data for the various locations is used in GeoJSON format, which is the required format for JavaScript support.
 
+----
+
 
 **Data Source:** All utilized data was sourced from the open-source data platform, data.gv.at.
 
@@ -50,10 +55,14 @@ Museums (Museum)
 
 Surf Hotspots (Wlan hotspot)
 
+----
+
 **Challenges and Limitations**
 During development, the project encountered limitations primarily related to data availability:
 
 
 **Functionality Expansion:** The project was unable to integrate advanced features like a sidebar grid. This feature, intended to display detailed information when a location was selected, could not be implemented because the required data with the necessary attributes was unavailable.
+
+
 
 
