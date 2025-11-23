@@ -1,4 +1,4 @@
-[![View the Interactive Map Here](https://sunday2023539.github.io/Great-Places-to-explore-in-Summer/)](https://sunday2023539.github.io/Great-Places-to-explore-in-Summer/)
+[![View Interactive Map](https://img.shields.io/badge/View%20Interactive%20Map-red?style=for-the-badge)](https://sunday2023539.github.io/Great-Places-to-explore-in-Summer/)
 
 ---
 ---
