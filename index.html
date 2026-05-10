@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Great Places to Explore in Summer</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/leaflet.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.locatecontrol/dist/L.Control.Locate.min.css">
+
+  <script src="js/leaflet-src.js"></script>
+  <script src="https://unpkg.com/leaflet-providers@latest/leaflet-providers.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/leaflet.locatecontrol/dist/L.Control.Locate.min.js"></script>
+
+  <script src="data/spielplatz.js"></script>
+  <script src="data/wlanhotspot.js"></script>
+  <script src="data/museum.js"></script>
+  <script src="data/bibliothek.js"></script>
+</head>
+
+<body>
+
+  <div id="header">
+    <div>
+      <h1>Great Places to Explore in Summer</h1>
+      <p>Interactive Web Map of Museums, Libraries, Playgrounds and WiFi Hotspots</p>
+    </div>
+  </div>
+
+  <aside id="sidebar">
+
+    <div class="sidebar-section">
+      <h2>Explore Places</h2>
+      <p>Filter and discover interesting places around Salzburg City.</p>
+
+      <input id="searchInput" type="text" placeholder="Search places..." />
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Categories</h3>
+
+      <label class="filter-row">
+        <span>Playgrounds</span>
+        <input id="filter-playgrounds" type="checkbox" checked>
+      </label>
+
+      <label class="filter-row">
+        <span>WiFi Hotspots</span>
+        <input id="filter-wifi" type="checkbox" checked>
+      </label>
+
+      <label class="filter-row">
+        <span>Museums</span>
+        <input id="filter-museums" type="checkbox" checked>
+      </label>
+
+      <label class="filter-row">
+        <span>Libraries</span>
+        <input id="filter-libraries" type="checkbox" checked>
+      </label>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Quick Actions</h3>
+
+      <button id="zoomAllBtn" class="sidebar-btn">Zoom to All</button>
+      <button id="clearFiltersBtn" class="sidebar-btn secondary">Reset Filters</button>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Statistics</h3>
+
+      <div class="stat-row">
+        <span>Total Places</span>
+        <strong id="totalPlaces">0</strong>
+      </div>
+
+      <div class="stat-row">
+        <span>Visible Places</span>
+        <strong id="visiblePlaces">0</strong>
+      </div>
+
+      <div class="stat-row">
+        <span>Playgrounds</span>
+        <strong id="countPlaygrounds">0</strong>
+      </div>
+
+      <div class="stat-row">
+        <span>WiFi Hotspots</span>
+        <strong id="countWifi">0</strong>
+      </div>
+
+      <div class="stat-row">
+        <span>Museums</span>
+        <strong id="countMuseums">0</strong>
+      </div>
+
+      <div class="stat-row">
+        <span>Libraries</span>
+        <strong id="countLibraries">0</strong>
+      </div>
+    </div>
+
+  </aside>
+
+  <div id="map"></div>
+
+  <div id="bottom-bar">
+    <div>
+      <span>Latitude</span>
+      <strong id="latValue">47.7981</strong>
+    </div>
+
+    <div>
+      <span>Longitude</span>
+      <strong id="lngValue">13.0501</strong>
+    </div>
+
+    <div>
+      <span>Zoom Level</span>
+      <strong id="zoomValue">13</strong>
+    </div>
+
+    <div>
+      <span>Project</span>
+      <strong>Leaflet WebGIS</strong>
+    </div>
+  </div>
+
+  <div id="footer">
+    <p>Created by Babafemi Sunday Olatunji | Leaflet WebGIS Project</p>
+  </div>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
