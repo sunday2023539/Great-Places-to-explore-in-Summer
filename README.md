@@ -1,70 +1,106 @@
 [![View Interactive Map](https://img.shields.io/badge/View%20Interactive%20Map-0F3D2A?style=for-the-badge)](https://sunday2023539.github.io/Great-Places-to-explore-in-Summer/)
 
 ---
+----
+
+## Overview
+
+Great Places to Explore in Summer is an interactive WebGIS application designed to help users discover important attractions and public amenities within Salzburg, Austria. The project was developed as part of an Application Development IP project with the aim of creating a modern, user-friendly, and visually interactive web mapping experience.
+
+The application integrates geospatial visualization, interactive mapping, and spatial data representation using Leaflet and GeoJSON technologies.
+
 ---
-**Great Places to Explore in Summer**
 
-This project is an interactive web map designed to help users discover various attractions and amenities in the Salzburg, Austria region. It was developed as an Application Development IP project with the primary goal of providing a comprehensive tool for exploring notable locations.
+## Interactive Web Map Features
 
-----
+### Dynamic Layer Control
+Users can easily toggle between multiple thematic layers including:
 
-**Key Features and Functionalities**
-The application offers a user-friendly interface built around core interactive map features:
+- Playgrounds (Spielplatz)
+- WiFi Hotspots (WLAN Hotspots)
+- Museums
+- Libraries (Bibliothek)
 
-----
+---
 
-**Layer Control:** Users can easily toggle between different map layers to focus on specific location types.
+### Interactive Popups
+Each map marker contains interactive popup information displaying location details and feature descriptions for improved user interaction and exploration.
 
-Playgrounds (Spiel Platz) 
+---
 
-Libraries (BiblioTek) 
+### Marker Clustering
+The application uses marker clustering to efficiently manage dense spatial datasets and improve map readability at different zoom levels.
 
-Museums (Museum) 
+---
 
-Surf Hotspots (Wlan hotspot)
+### Multiple Basemaps
+Users can switch between different basemap styles including:
 
-----
+- OpenStreetMap
+- CARTO Light Basemap
 
-**Pop-Ups:** Clicking on a marker triggers a pop-up that displays the name and other relevant details about the selected location, offering a quick overview.
+---
 
+### Locate Me Functionality
+A geolocation tool allows users to quickly identify and navigate to their current location directly on the map.
 
-**Control Scale:** A control scale is included on the map to give users a clear understanding of distances and to gauge the proximity of various locations.
+---
 
+### Responsive Modern Interface
+The interface was redesigned using a modern responsive layout with:
 
-**Event Listeners:** The map incorporates event listeners to enhance user engagement by providing instant feedback when clicking on a marker.
+- Styled navigation controls
+- Enhanced popups
+- Improved typography
+- Responsive mobile-friendly design
+- Improved visual hierarchy
 
-**Technology Stack**
+---
 
-**Mapping Library:** The core map functionality is built using Leaflet, an open-source JavaScript library for interactive maps.
+### Scale Control
+A dynamic scale bar helps users estimate real-world distances and spatial relationships between locations.
 
+---
 
-**Data Format:** The data for the various locations is used in GeoJSON format, which is the required format for JavaScript support.
+## Technology Stack
 
-----
+### Frontend Mapping
+- Leaflet.js
+- Leaflet Marker Cluster
+- Leaflet Locate Control
 
+### Spatial Data
+- GeoJSON
 
-**Data Source:** All utilized data was sourced from the open-source data platform, data.gv.at.
+### Web Technologies
+- HTML5
+- CSS3
+- JavaScript
 
-**Project Scope and Data**
-The map's focus is limited to specific datasets due to data accessibility and quality. The datasets used include:
+### Basemap Services
+- OpenStreetMap
+- CARTO Basemaps
 
+---
 
-Playgrounds (Spiel Platz) 
+## Data Sources
 
-Libraries (BiblioTek) 
+All spatial datasets used in this project were sourced from open government and open-source spatial data platforms including:
 
-Museums (Museum) 
+- data.gv.at
+- OpenStreetMap
 
-Surf Hotspots (Wlan hotspot)
+---
 
-----
+## Project Scope
 
-**Challenges and Limitations**
-During development, the project encountered limitations primarily related to data availability:
+The project focuses on public accessibility and urban exploration within Salzburg City using selected datasets including:
 
+- Playgrounds
+- Libraries
+- Museums
+- WiFi Hotspots
 
-**Functionality Expansion:** The project was unable to integrate advanced features like a sidebar grid. This feature, intended to display detailed information when a location was selected, could not be implemented because the required data with the necessary attributes was unavailable.
+The application demonstrates practical WebGIS development workflows including interactive mapping, spatial data visualization, and client-side geospatial rendering.
 
-
-
-
+---
